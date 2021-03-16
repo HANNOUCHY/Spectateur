@@ -1,0 +1,13 @@
+C:\Users\Hamid HANNOUCHY\source\repos\spectacle\spectacle\bin\Debug\netcoreapp3.1\spectacle.exe
+C:\Users\Hamid HANNOUCHY\source\repos\spectacle\spectacle\bin\Debug\netcoreapp3.1\spectacle.deps.json
+C:\Users\Hamid HANNOUCHY\source\repos\spectacle\spectacle\bin\Debug\netcoreapp3.1\spectacle.runtimeconfig.json
+C:\Users\Hamid HANNOUCHY\source\repos\spectacle\spectacle\bin\Debug\netcoreapp3.1\spectacle.runtimeconfig.dev.json
+C:\Users\Hamid HANNOUCHY\source\repos\spectacle\spectacle\bin\Debug\netcoreapp3.1\spectacle.dll
+C:\Users\Hamid HANNOUCHY\source\repos\spectacle\spectacle\bin\Debug\netcoreapp3.1\spectacle.pdb
+C:\Users\Hamid HANNOUCHY\source\repos\spectacle\spectacle\obj\Debug\netcoreapp3.1\spectacle.csprojAssemblyReference.cache
+C:\Users\Hamid HANNOUCHY\source\repos\spectacle\spectacle\obj\Debug\netcoreapp3.1\spectacle.AssemblyInfoInputs.cache
+C:\Users\Hamid HANNOUCHY\source\repos\spectacle\spectacle\obj\Debug\netcoreapp3.1\spectacle.AssemblyInfo.cs
+C:\Users\Hamid HANNOUCHY\source\repos\spectacle\spectacle\obj\Debug\netcoreapp3.1\spectacle.csproj.CoreCompileInputs.cache
+C:\Users\Hamid HANNOUCHY\source\repos\spectacle\spectacle\obj\Debug\netcoreapp3.1\spectacle.dll
+C:\Users\Hamid HANNOUCHY\source\repos\spectacle\spectacle\obj\Debug\netcoreapp3.1\spectacle.pdb
+C:\Users\Hamid HANNOUCHY\source\repos\spectacle\spectacle\obj\Debug\netcoreapp3.1\spectacle.genruntimeconfig.cache
