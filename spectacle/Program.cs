@@ -17,12 +17,13 @@ namespace spectacle
             Monkey mnk = new Monkey(1,lst);
             Monkey mnk2 = new Monkey(2, lst2);
             Spectator sp = new Spectator();
-            Trainers tr = new Trainers(1);
-            string name_trick = tr.request(2, mnk2);
+            Trainers tr = new Trainers(1, mnk2);
+            string name_trick = tr.request(2);
             sp.React(name_trick);
-            Trainers tr2 = new Trainers(2);
-            string name_trick2 = tr2.request(1, mnk);
+            Trainers tr2 = new Trainers(2,mnk);
+            string name_trick2 = tr2.request(1);
             sp.React(name_trick2);
+
         }
     }
     class Spectator
@@ -47,31 +48,52 @@ namespace spectacle
     }
     class Trainers
     {
-        public int id;
-        public string request(int trick ,Monkey mnk )
+        private int id;
+        private Monkey monkey;
+        public int Id
         {
-            Console.WriteLine("dresseur "+ this.id + " demande à singe "+ mnk.id+ " d'executer le tour "+trick);
-            return mnk.Execute(trick);
+            get { return id; }
+            set { id = value; }
+        }
+        public Monkey Monkey
+        {
+            get { return monkey; }
+            set { monkey = value; }
+        }
+        public string request(int trick )
+        {
+            Console.WriteLine("dresseur "+ this.id + " demande à singe "+ this.monkey.Id+ " d'executer le tour "+trick);
+            return this.monkey.Execute(trick);
 
         }
 
-        public Trainers(int id)
+        public Trainers(int id , Monkey mnk)
         {
-            this.id = id;
+            Id = id;
+            Monkey = mnk;
         }
     }
     class Monkey
 
     {
-        public int id;
-        public List<Trick> lst;
+        private int id;
+        private List<Trick> lst;
 
         public Monkey(int id, List<Trick> list)
         {
-            this.id = id;
-            this.lst = list;
+            Id = id;
+            Lst = list;
         }
-
+        public int Id
+        {
+            get { return id; }
+            set { id = value; }
+        }
+        public List<Trick> Lst
+        {
+            get { return lst; }
+            set { lst = value; }
+        }
         public string Execute(int trink) 
         {
             string trk_name = "Ops !";
@@ -86,6 +108,7 @@ namespace spectacle
             }
             return trk_name;
         }
+
     }
     class Trick
     {
